@@ -1,0 +1,19 @@
+{
+  "name": "bratishka-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bratishka bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "zs",
+    "bot"
+  ],
+  "author": "MrOnlineCoder",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.26.0"
+  }
+}
