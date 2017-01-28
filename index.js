@@ -14,8 +14,6 @@ var Commands = require("./lib/commands.js");
 var bot = new TelegramBot(token, { polling: true });
 Commands.initCommands(bot);
 console.log("Bratishka started!");
-// Listen for any kind of message. There are different kinds of 
-// messages. 
 bot.on('message', function (msg) {
   var chatId = msg.chat.id;
   
